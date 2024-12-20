@@ -1,0 +1,73 @@
+.body {
+  padding-top: 100px;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar .navbar-brand {
+  color: white;
+  font-family: 'Dancing Script', cursive;
+}
+
+.nav li a {
+  color: white;
+}
+
+.nav li a:hover {
+  color: rgb(0, 0, 0);
+}
+
+.card h1 {
+  font-family: 'Noto Naskh Arabic';
+  font-weight: 500;
+}
+.card h3 {
+  font-family: 'Noto Naskh Arabic';
+  font-weight: 500;
+}
+.card h4 {
+  font-family: 'Noto Naskh Arabic';
+  font-weight: 500;
+}
+
+/* Tombol Kembali ke Atas */
+#backToTopBtn {
+  display: none; /* Tombol tidak akan terlihat sampai scroll ke bawah */
+  position: fixed; /* Tetap di tempat ketika scroll */
+  bottom: 20px; /* Jarak dari bawah layar */
+  right: 30px; /* Jarak dari kanan layar */
+  z-index: 99; /* Pastikan tombol berada di atas elemen lain */
+  background-color: #555; /* Warna latar belakang tombol */
+  color: white; /* Warna teks pada tombol */
+  border: none; /* Hilangkan border tombol */
+  padding: 15px; /* Jarak dalam tombol */
+  border-radius: 10px; /* Membuat sudut tombol bulat */
+  cursor: pointer; /* Ubah kursor menjadi pointer saat hover */
+  font-size: 18px; /* Ukuran teks tombol */
+}
+
+#backToTopBtn:hover {
+  background-color: #333; /* Warna tombol saat dihover */
+}
+
+/* Responsif untuk layar kecil (seperti ponsel) */
+@media (max-width: 600px) {
+  #backToTopBtn {
+    right: 15px; /* Ubah jarak dari kanan untuk layar lebih kecil */
+    bottom: 15px; /* Ubah jarak dari bawah untuk layar lebih kecil */
+    padding: 10px; /* Kurangi padding untuk layar kecil */
+    font-size: 14px; /* Kurangi ukuran font untuk layar kecil */
+  }
+}
+
+/* Responsif untuk layar besar (seperti tablet atau desktop) */
+@media (min-width: 601px) and (max-width: 1200px) {
+  #backToTopBtn {
+    right: 20px; /* Sedikit sesuaikan jarak kanan untuk layar sedang */
+    bottom: 20px; /* Sedikit sesuaikan jarak bawah untuk layar sedang */
+    padding: 12px; /* Sesuaikan padding untuk layar sedang */
+    font-size: 16px; /* Sesuaikan ukuran font untuk layar sedang */
+  }
+}
