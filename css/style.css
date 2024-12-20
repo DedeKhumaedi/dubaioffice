@@ -32,6 +32,11 @@
   font-weight: 500;
 }
 
+.card h6 {
+  font-family: 'Noto Naskh Arabic';
+  font-weight: 500;
+}
+
 /* Tombol Kembali ke Atas */
 #backToTopBtn {
   display: none; /* Tombol tidak akan terlihat sampai scroll ke bawah */
